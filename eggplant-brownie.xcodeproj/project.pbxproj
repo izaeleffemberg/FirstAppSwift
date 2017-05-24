@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6619862E1ED56FC300DCD722 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661986281ED56FC300DCD722 /* Item.swift */; };
+		6619862F1ED56FC300DCD722 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661986291ED56FC300DCD722 /* Meal.swift */; };
+		661986301ED56FC300DCD722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6619862B1ED56FC300DCD722 /* ViewController.swift */; };
+		661986311ED56FC300DCD722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6619862D1ED56FC300DCD722 /* Main.storyboard */; };
 		6692B83A1ED16DB000AC4B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692B8391ED16DB000AC4B06 /* AppDelegate.swift */; };
-		6692B83C1ED16DB000AC4B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692B83B1ED16DB000AC4B06 /* ViewController.swift */; };
-		6692B83F1ED16DB000AC4B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6692B83D1ED16DB000AC4B06 /* Main.storyboard */; };
 		6692B8411ED16DB000AC4B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6692B8401ED16DB000AC4B06 /* Assets.xcassets */; };
-		6692B8441ED16DB000AC4B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6692B8421ED16DB000AC4B06 /* LaunchScreen.storyboard */; };
 		6692B84F1ED16DB000AC4B06 /* eggplant_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692B84E1ED16DB000AC4B06 /* eggplant_brownieTests.swift */; };
 		6692B85A1ED16DB000AC4B06 /* eggplant_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692B8591ED16DB000AC4B06 /* eggplant_brownieUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661986281ED56FC300DCD722 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		661986291ED56FC300DCD722 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		6619862B1ED56FC300DCD722 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6619862D1ED56FC300DCD722 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6692B8361ED16DB000AC4B06 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6692B8391ED16DB000AC4B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6692B83B1ED16DB000AC4B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6692B83E1ED16DB000AC4B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6692B8401ED16DB000AC4B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6692B8431ED16DB000AC4B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6692B8451ED16DB000AC4B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6692B84A1ED16DB000AC4B06 /* eggplant-brownieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6692B84E1ED16DB000AC4B06 /* eggplant_brownieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieTests.swift; sourceTree = "<group>"; };
@@ -74,6 +76,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661986271ED56FC300DCD722 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				661986281ED56FC300DCD722 /* Item.swift */,
+				661986291ED56FC300DCD722 /* Meal.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6619862A1ED56FC300DCD722 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				6619862B1ED56FC300DCD722 /* ViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		6619862C1ED56FC300DCD722 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6619862D1ED56FC300DCD722 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		6692B82D1ED16DB000AC4B06 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +124,11 @@
 		6692B8381ED16DB000AC4B06 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				661986271ED56FC300DCD722 /* models */,
+				6619862A1ED56FC300DCD722 /* viewcontrollers */,
+				6619862C1ED56FC300DCD722 /* views */,
 				6692B8391ED16DB000AC4B06 /* AppDelegate.swift */,
-				6692B83B1ED16DB000AC4B06 /* ViewController.swift */,
-				6692B83D1ED16DB000AC4B06 /* Main.storyboard */,
 				6692B8401ED16DB000AC4B06 /* Assets.xcassets */,
-				6692B8421ED16DB000AC4B06 /* LaunchScreen.storyboard */,
 				6692B8451ED16DB000AC4B06 /* Info.plist */,
 			);
 			path = "eggplant-brownie";
@@ -232,9 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6692B8441ED16DB000AC4B06 /* LaunchScreen.storyboard in Resources */,
 				6692B8411ED16DB000AC4B06 /* Assets.xcassets in Resources */,
-				6692B83F1ED16DB000AC4B06 /* Main.storyboard in Resources */,
+				661986311ED56FC300DCD722 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6692B83C1ED16DB000AC4B06 /* ViewController.swift in Sources */,
+				6619862E1ED56FC300DCD722 /* Item.swift in Sources */,
+				6619862F1ED56FC300DCD722 /* Meal.swift in Sources */,
+				661986301ED56FC300DCD722 /* ViewController.swift in Sources */,
 				6692B83A1ED16DB000AC4B06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,25 +322,6 @@
 			targetProxy = 6692B8561ED16DB000AC4B06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6692B83D1ED16DB000AC4B06 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6692B83E1ED16DB000AC4B06 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6692B8421ED16DB000AC4B06 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6692B8431ED16DB000AC4B06 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6692B85C1ED16DB000AC4B06 /* Debug */ = {
@@ -505,6 +514,7 @@
 				6692B8601ED16DB000AC4B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6692B8611ED16DB000AC4B06 /* Build configuration list for PBXNativeTarget "eggplant-brownieTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				6692B8631ED16DB000AC4B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6692B8641ED16DB000AC4B06 /* Build configuration list for PBXNativeTarget "eggplant-brownieUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				6692B8661ED16DB000AC4B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
