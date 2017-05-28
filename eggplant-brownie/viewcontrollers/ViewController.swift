@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         let name = nameField!.text
         let happiness = happinessField!.text
         print("eaten \(name)with happiness\(happiness)!")
+        
+        if let navigation  = navigationController {
+            navigation.popViewController(animated: true)
+        }
     }
 
 }
