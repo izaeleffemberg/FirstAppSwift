@@ -12,15 +12,28 @@ class ViewController: UIViewController {
     
     @IBOutlet var nameField : UITextField! // variavel opcional (indicada pela !), essa variavel ta compilando e ta sem valor (obs o swift exige a inicialicao de uma var)
     @IBOutlet var happinessField : UITextField!
+    var mealsTable : MealsTableViewController?
     
     @IBAction func add(){
-        let name = nameField!.text
-        let happiness = happinessField!.text
-        print("eaten \(name)with happiness\(happiness)!")
-        
-        if let navigation  = navigationController {
-            navigation.popViewController(animated: true)
+        if (nameField == nil || happinessField == nil){
+            return
         }
+        let name : String = nameField!.text!
+        if let happiness = Int(happinessField!.text!) {
+            let meal = Meal(name: name, happiness: happiness)
+            print("eaten \(name)with happiness\(happiness)!")
+        
+            if (mealsTable == nil){
+                return
+            } else {
+                mealsTable?.add(meal : meal)
+            }
+        
+            if let navigation  = navigationController {
+                navigation.popViewController(animated: true)
+            }
+        }
+
     }
 
 }
